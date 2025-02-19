@@ -1,4 +1,4 @@
-import { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
+import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 import { z } from 'zod'
 import { getSubscriberInviteClick } from '../functions/get-subscriber-invite-clicks'
 
