@@ -2,14 +2,26 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Luciano Junior",
-    "email": "tec.luciano.ti@gmail.com"
+    "name": "Indicado 4",
+    "email": "indicado4@gmail.com",
+    "referrer": "915b36da-d77a-4c7a-b458-407e218adf24"
 }
+//915b36da-d77a-4c7a-b458-407e218adf24 indicado
+//3c8da9ea-f1b8-4d45-9254-9c0cf22e90c3 indicado2
+//f8116f42-6cad-4c38-8fbd-2a61c41ea587 indicado3
+//992f9f13-a3eb-4189-8469-7013811a47f1 indicado4
+###
+
+GET http://localhost:3333/invites/86f38c33-c830-4b71-80a5-88e7681af5c7
 
 ###
 
-GET http://localhost:3333/invites/luciano123
+GET http://localhost:3333/subscribers/86f38c33-c830-4b71-80a5-88e7681af5c7/ranking/clicks
 
 ###
 
-GET http://localhost:3333/subscribers/luciano123/ranking/clicks
+GET http://localhost:3333/subscribers/86f38c33-c830-4b71-80a5-88e7681af5c7/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/86f38c33-c830-4b71-80a5-88e7681af5c7/ranking
