@@ -7,7 +7,7 @@ interface SubscribeToEventParams {
   email: string
 }
 
-export async function SubscribeToEvent({
+export async function subscribeToEvent({
   name,
   email,
 }: SubscribeToEventParams) {
